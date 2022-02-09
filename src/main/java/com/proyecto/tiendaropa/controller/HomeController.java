@@ -20,6 +20,7 @@ public class HomeController {
 	private final Logger log = LoggerFactory.getLogger(HomeController.class);
 	private final Logger leg = LoggerFactory.getLogger(HomeController.class);
 	String nombre ="Carlos";
+	String otronombre ="Yoel";
 	
 	@Autowired
 	private ProductoService productoService;
