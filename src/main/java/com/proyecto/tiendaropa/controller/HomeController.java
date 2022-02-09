@@ -18,6 +18,8 @@ import com.proyecto.tiendaropa.service.ProductoService;
 @RequestMapping("/")
 public class HomeController {
 	private final Logger log = LoggerFactory.getLogger(HomeController.class);
+	private final Logger leg = LoggerFactory.getLogger(HomeController.class);
+	String nombre ="Carlos";
 	
 	@Autowired
 	private ProductoService productoService;
